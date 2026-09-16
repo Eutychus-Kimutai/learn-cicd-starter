@@ -20,5 +20,5 @@ jobs:
 
       - name: go test 
         run: | 
-          go test ./... 
+          go test ./... -cover 
           (exit 0)
