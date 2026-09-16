@@ -20,5 +20,5 @@ jobs:
 
       - name: Run tests 
         run: | 
-          go run ./... 
+          go test ./... 
           (exit 0)
