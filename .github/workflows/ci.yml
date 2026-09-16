@@ -6,7 +6,7 @@ on:
 
 jobs:
   tests:
-    name: tests
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +18,7 @@ jobs:
         with:
           go-version: "1.27.1"
 
-      - name: Tests 
+      - name: tests 
         run: | 
           go test ./... 
           (exit 0)
