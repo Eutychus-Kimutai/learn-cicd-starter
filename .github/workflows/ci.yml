@@ -24,7 +24,7 @@ jobs:
           (exit 0)
 
   style:
-    name: styles
+    name: style
     runs-on: ubuntu-latest
 
     steps:
